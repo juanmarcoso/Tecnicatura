@@ -18,3 +18,25 @@ console.log(juntos);
 
 juntos = 78 + 17 + nombre; //Aqui lo que va a hacer es sumar y despues mostrar el resultado como str
 console.log(juntos);
+
+//Tercera concatenacion
+nombre += apellido;
+console.log(nombre);
+
+// Hoy ya no se usa var, se utiliza let y const
+let nombre2 = "Pedro";
+console.log(nombre2);
+
+const apellido2 = "Lepes";
+//apellido2 = "Peres"; una constante no puede ser modificada
+console.log(apellido2);
+
+let x, y; //Se pueden crear varias variables dntro de una misma linea
+x = 17, y = 21;
+let z = x + y;
+console.log(z);
+
+let _1num = 31; //No utilizar numeros para inicializar las variables
+let $23num = 23;
+let rompiendo = "rompe"; //No utilizar palabras reservadas para variables como "break"
+console.log(_1num + " " + $23num + " " + rompiendo);
