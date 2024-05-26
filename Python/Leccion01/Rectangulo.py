@@ -9,5 +9,5 @@ ancho = int(input("Ingrese el ancho del rectangulo: "))
 
 area = alto * ancho
 perimetro = (alto + ancho) * 2
-print(f"El area del rectangulo es: {area}")
-print(f"El perimetro es {perimetro}")
+print(f"El area del rectangulo es: {area}cm")
+print(f"El perimetro es {perimetro}cm")
