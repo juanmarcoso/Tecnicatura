@@ -2,7 +2,7 @@
 
 ***Quokka.js***
 
-<sub>hHolaMundo.js</sub>
+<sub>HolaMundo.js</sub>
 
 > Para inicializar Quokka y no tener que lamar desde el index nuestro .js podemos trabajar con el quokka. Desde VSC vamos a ingresar 
 > **ctrl+shift+p**
