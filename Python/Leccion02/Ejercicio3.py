@@ -7,5 +7,6 @@ b = 5 --> b = 10
 a = int(input("Ingrese un numero para a: "))
 b = int(input("Ingrese un numero para b: "))
 
-print(a = b)
-print(b = a)
+cambio = b
+b = a
+print(f"Los valores son a: {cambio} y b: {b}")
