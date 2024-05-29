@@ -1,0 +1,17 @@
+
+public class EjercicioMayorEdad {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+            var edad = 30; //Literal tener presente la inferencia de tipos
+        var adulto = edad >= 18;
+        if (adulto){
+            System.out.println("Eres mayor de edad");
+        }
+        else {
+            System.out.println("Eres menor de edad");
+        }
+    }
+}
