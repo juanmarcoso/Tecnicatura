@@ -166,7 +166,7 @@ public class HolaMundo {
         }*/
         
         //Conversion de tipos primitivos
-        var edad1 = "20"; // esto es un string
+        /*var edad1 = "20"; // esto es un string
         // Llamamos al metodo parseInt
         var edad = Integer.parseInt("20"); //Aqui lo convertimos en Int
         System.out.println("edad = " + (edad + 1)); //Lo sumamos para ver que sucede
@@ -181,7 +181,21 @@ public class HolaMundo {
         var entrada2 = new Scanner(System.in);
         System.out.println("Digite su edad: ");
         edad = Integer.parseInt(entrada2.nextLine());
-        System.out.println("edad = " + edad);
+        System.out.println("edad = " + edad);*/
+        
+        // Conversion de tipos primitivos en Java parte 2
+        var edadTexto = String.valueOf(10); // Con este metodo lo que hacemos es convertir un INT en un STR
+        System.out.println("edadTexto = " + edadTexto);
+        
+        var fraseChar = "programadores".charAt(8); //Con este metodo lo que hacemos es buscar segun indice la letra tipo "char"
+        System.out.println("fraseChar = " + fraseChar); // Solo los tipo String tienen el metodo "charAt"
+        
+        //Vamos a probar convirtiendo string en char desde la clase Scanner
+        var entrada = new Scanner(System.in);
+        System.out.println("Digite un caracter: ");
+        fraseChar = entrada.nextLine().charAt(0);
+        System.out.println("fraseChar = " + fraseChar);
+        
         
         
        //Constantes
