@@ -3,6 +3,8 @@
 Comentarios extensivos de muchas lineas
 Esto es para varias lineas
 */
+import java.util.Scanner;
+
 public class HolaMundo {
     public static void main(String args[]){ //Clase main
                /* System.out.println("Hola mundo desde Java"); //con soutv+Tab arma la linea de impresion
@@ -152,7 +154,7 @@ public class HolaMundo {
         
         // Tipos primitivos tipo booleanos (Se conocen como tipo bandera)
         
-        boolean varBool = false;
+        /*boolean varBool = false;
         System.out.println("varBool = " + varBool);
         
         // Sentencias If
@@ -161,7 +163,26 @@ public class HolaMundo {
         }
         else{
             System.out.println("La bandera es roja");
-        }
+        }*/
+        
+        //Conversion de tipos primitivos
+        var edad1 = "20"; // esto es un string
+        // Llamamos al metodo parseInt
+        var edad = Integer.parseInt("20"); //Aqui lo convertimos en Int
+        System.out.println("edad = " + (edad + 1)); //Lo sumamos para ver que sucede
+        
+        var valorPi = Double.parseDouble("3.1416");
+        System.out.println("valorPi = " + (valorPi));
+        
+        //Pedir un valor
+        var entrada = new Scanner(System.in); //El "in" significa que vamos a trabajar con la consola
+        
+        // Pedir un valor 
+        var entrada2 = new Scanner(System.in);
+        System.out.println("Digite su edad: ");
+        edad = Integer.parseInt(entrada2.nextLine());
+        System.out.println("edad = " + edad);
+        
         
        //Constantes
        //int final VALOR_INICIAL = 5;
