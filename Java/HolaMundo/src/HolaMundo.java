@@ -184,7 +184,7 @@ public class HolaMundo {
         System.out.println("edad = " + edad);*/
         
         // Conversion de tipos primitivos en Java parte 2
-        var edadTexto = String.valueOf(10); // Con este metodo lo que hacemos es convertir un INT en un STR
+       /* var edadTexto = String.valueOf(10); // Con este metodo lo que hacemos es convertir un INT en un STR
         System.out.println("edadTexto = " + edadTexto);
         
         var fraseChar = "programadores".charAt(8); //Con este metodo lo que hacemos es buscar segun indice la letra tipo "char"
@@ -194,9 +194,60 @@ public class HolaMundo {
         var entrada = new Scanner(System.in);
         System.out.println("Digite un caracter: ");
         fraseChar = entrada.nextLine().charAt(0);
-        System.out.println("fraseChar = " + fraseChar);
+        System.out.println("fraseChar = " + fraseChar);*/
+       
+       // Inicializar variables
+       /*int num1 = 5, num2  = 4; // La inferencia de tipos no se puede inicializar varias varialbes
+       
+       //Inferencia de tipos
+       var solucion = num1 + num2; //Operacion aritmetica
+        System.out.println("solucion de la suma = " + solucion);
+       
+        solucion = num1 - num2;
+        System.out.println("solucion de la resta = " + solucion);
         
+        solucion = num1 * num2;
+        System.out.println("solucion de la multiplicacion = " + solucion);
         
+        solucion = num1 / num2;
+        System.out.println("solucion de la division = " + solucion);
+        
+        var solucion2 = 3.4 / num2; //Aqui se usa la inferencia de tipos, que automaticamente nos convierte la variable en tipo double
+        System.out.println("Resultado de la division = " + solucion2);
+        
+        //Tipo modulo o residuo de la division
+        solucion = num1 % num2; // Guarda el residuo entero de la division
+        System.out.println("solucion del modulo = " + solucion);
+        
+        // Uso de if sin llaves, no se usan en este ejemplo porque solo se imprime una sola linea de codigo
+        if (num2 % 2 == 0)
+            System.out.println("Es un numero par");
+        else
+            System.out.println("Es un numero impar");*/
+        
+       // Operadores de asignacion (practicas)
+       
+       int varNum1 = 1, varNum2 = 4;
+       int varNum3 = varNum1 + 6 - varNum2; // Aqui le agregamos una operacion a la variable / tambien se puede utilizar la inferencia de tipos "var" en vez de "int"
+        System.out.println("varNum3 = " + varNum3);
+       
+        varNum1 += 1; // varNum1 = varnum1 + 1
+        System.out.println("varNum1 = " + varNum1);
+        
+        var solucion4 = (varNum3 -= varNum2);
+        System.out.println("solucion4 = " + solucion4);
+        
+        var solucion5 = (varNum1 /= 2);
+        System.out.println("solucion5 = " + solucion5);
+        
+        var solucion6 = (varNum1 *= 2);
+        System.out.println("solucion6 = " + solucion6);
+        
+        var solucion7 = (varNum1 /= 2);
+        System.out.println("solucion7 = " + solucion7);
+        
+        var solucion8 = (varNum1 %= 2);
+        System.out.println("solucion8 = " + solucion8);
         
        //Constantes
        //int final VALOR_INICIAL = 5;

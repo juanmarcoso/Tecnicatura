@@ -14,7 +14,12 @@ public class Ejercicio1 {
         System.out.println("Digite el precio del libro: ");
         double precioLibro = Double.parseDouble(entrada.nextLine());
         System.out.println("Confirme si  el envio es gratuito: ");
-        boolean envioGratuito = Boolean.parseBoolean();
+        boolean envioGratuito = Boolean.parseBoolean(entrada.nextLine());
+        
+        System.out.println(nombreLibro + " #" + idLibro);
+        System.out.println("Precio del libro: " + precioLibro);
+        System.out.println("El envio del libro gratuito es: " + envioGratuito);
+        
     }
     
 }
