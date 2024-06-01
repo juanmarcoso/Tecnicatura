@@ -315,7 +315,7 @@ public class HolaMundo {
         var jVar = aNum == bNum;
         System.out.println("jVar = " + jVar);*/
         //Operadores condicionales (and y or)
-        var valorA = 11;
+        /*var valorA = 11;
         var valorMinimo = 0; //Creamos un rango del 0 al 10
         var valorMaximo = 10;
         var respuesta = valorA >= valorMinimo && valorA <= valorMaximo;
@@ -334,9 +334,28 @@ public class HolaMundo {
         }
         else {
             System.out.println("Papa no puede asistir al juego de su hijo");
-        }
+        }*/
         
+        // Operador ternario
+        /*var resultadoT = (5 > 8) ? "Verdadero" : "Falso"; //Le vamos a dar una condicion, sobre esa condicion le vamos a dar dos opciones de salida
+        System.out.println("resultadoT = " + resultadoT);
         
+        var numeroT = 7; //por la inferencia de tipos va a ser un "int"
+        resultadoT = (numeroT % 2 == 0) ? "Es par" : "Es impar";
+        System.out.println("resultadoT = " + resultadoT);*/
+        
+         var x = 5;
+         var y = 10;
+         var z = ++x + y--;
+         System.out.println("x = " + x); // 6
+         System.out.println("y = " + y); // 9
+         System.out.println("z = " + z); // 16 (antes de restarle un a y los sumo)
+         
+         var solucionAritmetica = 4 + 5 * 6 / 3; //14
+         System.out.println("solucionAritmetica = " + solucionAritmetica); 
+         
+         solucionAritmetica = (4 + 5) * 6 / 3; 
+         System.out.println("solucionAritmetica = " + solucionAritmetica);
 
         //Constantes
         //int final VALOR_INICIAL = 5;
