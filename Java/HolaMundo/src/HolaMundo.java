@@ -343,7 +343,7 @@ public class HolaMundo {
         var numeroT = 7; //por la inferencia de tipos va a ser un "int"
         resultadoT = (numeroT % 2 == 0) ? "Es par" : "Es impar";
         System.out.println("resultadoT = " + resultadoT);*/
-        
+        /*
          var x = 5;
          var y = 10;
          var z = ++x + y--;
@@ -356,7 +356,11 @@ public class HolaMundo {
          
          solucionAritmetica = (4 + 5) * 6 / 3; 
          System.out.println("solucionAritmetica = " + solucionAritmetica);
-
+         */
+        
+        // Sentencia de control if/else
+        
+        
         //Constantes
         //int final VALOR_INICIAL = 5;
         //double final IVA_TIPO_1 = 0.16;
