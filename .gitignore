@@ -2,6 +2,7 @@
 /Java/Ejercicio1/build/
 /Java/Ejercicio2Sueldo/nbproject/private/
 /Java/Ejercicio2Sueldo/build/
+<<<<<<< HEAD
 /Java/EjercicioRectangulo/nbproject/private/
 /Java/EjercicioRectangulo/build/
 /Java/MayorDeDosnumeros/nbproject/private/
@@ -12,3 +13,9 @@
 /Java/Ejercicio7CompañiaVenta/nbproject/private/
 /Java/Ejercicio7CompañiaVenta/build/
 /Java/Ejercicio6Dinero/build/
+=======
+/Java/Leccion2/nbproject/private/
+/Java/Leccion2/build/
+/Java/CondicionalEjercicio1/nbproject/private/
+/Java/CondicionalEjercicio1/build/
+>>>>>>> ramaJava
