@@ -348,7 +348,7 @@ public class HolaMundo {
          var y = 10;
          var z = ++x + y--;
          System.out.println("x = " + x); // 6
-         System.out.println("y = " + y); // 9
+         System.out.println("y = " + y); // 9ls
          System.out.println("z = " + z); // 16 (antes de restarle un a y los sumo)
          
          var solucionAritmetica = 4 + 5 * 6 / 3; //14
