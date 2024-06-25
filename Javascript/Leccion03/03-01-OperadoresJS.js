@@ -34,3 +34,37 @@
     else {
         console.log("No puede ir al juego")
     }
+
+    //Operador ternario
+    let resultado2 = 3 < 2 ? "Verdadero" : "Falso";
+    console.log(resultado2)
+
+    let numero = 8;
+    resultado = numero % 2 == 0 ? "Par" : "Impar";
+    console.log(resultado)
+
+    // Convertir string a numero 
+    let miNumero = "19"; //Es una cadena
+    console.log(typeof miNumero)
+    
+    let edad2 = Number(miNumero); //Esta es una funcion de conversion
+    console.log(typeof edad2);
+    
+    //Funcion isNaN (para verificar si una variable es de tipo numerica) Devuelve un tipo booleano
+    if (isNaN(edad2)){
+        console.log("esta variable no contiene solo numeros");
+    }
+    else {
+            if (edad2 >= 18){
+        console.log("Puede votar");
+        }
+        else {
+            console.log("Es menor, no puede votar");
+        }
+    }
+
+    //Operador ternario
+    let resultado4 = edad2 >= 18 ? "Puede votar" : "Es muy joven para votar";
+    console.log(resultado4)
+
+    
